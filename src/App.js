@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <h1>Hello</h1>
-  );
+
+const URL='http://www.omdbapi.com?apikey=53da6a14'
+
+
+const App = () =>{
+    return(
+        <h1>Hello</h1>
+    );
 }
 
 export default App;
